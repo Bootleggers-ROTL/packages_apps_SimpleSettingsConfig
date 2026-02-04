@@ -7,10 +7,6 @@
 android_app {
     name: "SimpleSettingsConfig",
 
-    static_libs: [
-        "org.lineageos.platform.internal",
-    ],
-
     srcs: ["src/**/*.java"],
 
     platform_apis: true,
